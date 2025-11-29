@@ -1,0 +1,172 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: #0044cc;
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 40px;
+  background: white;
+  max-width: 1100px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.hero-text h2 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.highlight {
+  color: #ff5733;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.hero-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* SECTIONS (About, Skills, Projects, Contact) */
+section {
+  max-width: 1100px;
+  margin: 30px auto;
+  background: white;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #222;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* SKILLS */
+.skills-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.skill-box {
+  background: #0044cc;
+  color: white;
+  flex: 1;
+  padding: 18px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.skill-box span {
+  display: block;
+  font-weight: normal;
+}
+
+/* PROJECT CARDS */
+.project {
+  background: white;
+  padding: 35px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* CONTACT FORM */
+form {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #0044cc;
+  border-radius: 6px;
+}
+
+button {
+  background: #0044cc;
+  padding: 12px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #003399;
+}
+
+/* FOOTER */
+footer {
+  background: #0044cc;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* BACK TO TOP BUTTON */
+.top-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #0044cc;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

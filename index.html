@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header id="top">
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hi, I am</h2>
+      <h2 class="highlight">Full Stack Developer</h2>
+      <p>Building modern web applications with MERN stack.</p>
+    </div>
+
+    <img src="image.jpg" alt="Profile" class="hero-img">
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! My name is Nakshatra Aggarwal. I am currently learning web development. This is my first portfolio website
+      where I showcase my passion for creating interactive and responsive web pages. I am a dedicated learner with a strong
+      interest in frontend design, user experience, and modern technologies including HTML, CSS, and JavaScript.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-row">
+      <div class="skill-box">HTML<br><span>Beginner</span></div>
+      <div class="skill-box">CSS<br><span>Beginner</span></div>
+      <div class="skill-box">JavaScript<br><span>Learning</span></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+      <h3>Project1</h3>
+      <p>A simple HTML & CSS webpage.</p>
+    </div>
+
+    <div class="project">
+      <h3>Project2</h3>
+      <p>Another responsive mini project.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+      <label>Name</label>
+      <input type="text" placeholder="Enter your name" required>
+
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Message</label>
+      <textarea rows="4" placeholder="Write your message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 John Doe. All rights reserved.
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button class="top-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+    ↑ Back to Top
+  </button>
+
+</body>
+</html>
